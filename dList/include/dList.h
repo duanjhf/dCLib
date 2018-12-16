@@ -22,6 +22,7 @@ struct dList
 /*************************************************************************************************/
 /*                                   public function                                             */
 /*************************************************************************************************/
-struct dList *dList_insert(struct dList *head);
+struct dList *dList_insert(struct dList *prev_list, struct dList *new_list);
+struct dList *dList_add(struct dList *head_list, struct dList *new_list);
 
 #endif /* INCLUDE_DLIST_H_ */
